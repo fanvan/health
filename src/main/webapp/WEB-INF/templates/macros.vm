@@ -1,0 +1,5 @@
+#macro(csrfToken)
+<input type="hidden" id="J_csrfToken" name="_csrfToken" value="$!{_csrfToken}"/>
+#end
+
+#macro(csrfParam)_csrfToken=$!{_csrfToken}#end
